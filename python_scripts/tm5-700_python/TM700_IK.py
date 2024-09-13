@@ -265,7 +265,7 @@ if __name__ == "__main__":
     Ry = 0
     Rz = 90
 
-    # Rotation matrices
+    # Transformation matricies (4x4) [R, t], [0,1]
     Rx_matrix = [[1, 0, 0, 0],
                  [0, math.cos(math.radians(Rx)), -math.sin(math.radians(Rx)), 0],
                  [0, math.sin(math.radians(Rx)), math.cos(math.radians(Rx)), 0],
